@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    
+
+}
+div.wrapper {
+    padding: 10px 40px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    
+}
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+.text {
+    display: flex;
+    margin-bottom: 30px ;
+}
+.images img{
+    width: 200px;
+    height: 300px;
+}
+ul.navigation {
+    display: flex;
+}
+ul.skill {
+    display: flex;
+    font-size: 30px;
+    margin-right:25px ;
+}
+ul.skill li {
+    margin-left: 35px;
+}
+ul.navigation li {
+    margin-left: 25px;
+    list-style-type: none;
+}
+ul.text li {
+    margin-left: 25px;
+    list-style-type: none;
+}
+ul.navigation li button {
+    color: white;
+    background-color: black;
+    padding: 5px 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+p.name{
+    color: black;
+    text-transform: uppercase;
+    font-size: large;
+}
+ul.navigation li a {
+    color: black;
+}
+.intros {
+    margin-right: 25px;
+}
+.skills {
+    font-size: 18px;
+}
